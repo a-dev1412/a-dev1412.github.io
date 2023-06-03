@@ -1,3 +1,9 @@
+// Coded by co2thunderboy
+// https://co2thunderboy.web.id
+// https://co2.my.id
+// Email : admin@co2.my.id
+// FB, IG, dll : co2thunderboy
+
 int led1 = 16;    // Pin LED 1 terhubung ke pin 16 / D0
 int btn1 = 4;  // Pin tombol 1 terhubung ke pin 4 / D1
 int buzz1 = 5; // Pin Buzzer 1 terhubung ke pin 5 / D2
