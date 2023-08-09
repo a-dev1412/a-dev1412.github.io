@@ -1,11 +1,43 @@
 <html>
 <head>
 <title>3 Group (MBCC3G) | Bel Tombol Lomba Kuis Cerdas Cermat Kecil Mini</title>
-<meta http-equiv="refresh" content="0; URL=https://shope.ee/2fhvuFIJu6" />
+<script type="text/javascript">
+  var seconds = 5; // seconds for HTML
+var foo; // variable for clearInterval() function
+
+function redirect() {
+    document.location.href = 'https://shope.ee/2fhvuFIJu6';
+}
+
+function updateSecs() {
+    document.getElementById("seconds").innerHTML = seconds;
+    seconds--;
+    if (seconds == -1) {
+        clearInterval(foo);
+        redirect();
+    }
+}
+
+function countdownTimer() {
+    foo = setInterval(function () {
+        updateSecs()
+    }, 1000);
+}
+
+countdownTimer();
+</script>
+<style>
+p {
+  margin: 20;
+}
+</style>
 </head>
 <body>
-  <p align="center">Beli Mini Bel Cerdas Cermat murah di Shopee<br />
-    <a href="https://shope.ee/2fhvuFIJu6"><img src="https://co2.my.id/sp-mbcc3g.jpg" alt="Mini Bel Cerdas Cermat | Bel Tombol Kuis Lomba Cerdas Cermat Kecil Mini" /></a>
+  <p style="font-size: 30px" align="center">Beli Mini Bel Cerdas Cermat murah di Shopee<br />
+    <a href="https://shope.ee/2fhvuFIJu6"><img width="256" height="256" "src="https://co2.my.id/sp-mbcc3g.jpg" alt="Mini Bel Cerdas Cermat | Bel Tombol Kuis Lomba Cerdas Cermat Kecil Mini" /></a>
   </p>
+<p style="font-size: 25px" align="center">Kamu akan dialihkan ke Shopee dalam <span id="seconds">5</span> detik.</br >
+Jika tidak, silakan klik <a href="https://shope.ee/2fhvuFIJu6">disini</a>.
+</p>
 </body>
 </html>
